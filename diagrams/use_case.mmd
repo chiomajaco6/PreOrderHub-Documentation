@@ -1,0 +1,18 @@
+flowchart LR
+    Customer((Customer))
+    Admin((Administrator))
+    SuperAdmin((Super Admin))
+    Customer --> Browse[Browse Products]
+    Customer --> Cart[Add to Cart]
+    Customer --> Checkout[Checkout]
+    Customer --> Pay[Make Installment Payment]
+    Customer --> Track[Track Shipment]
+    Customer --> Source[Send Product Sourcing Request]
+    Admin --> Campaign[Manage Campaign]
+    Admin --> Products[Manage Products]
+    Admin --> Orders[Manage Orders]
+    Admin --> Payments[Verify Payments]
+    Admin --> Shipping[Update Shipping Fee]
+    Admin --> Reports[View Reports]
+    SuperAdmin --> Business[Manage Businesses]
+    SuperAdmin --> Subscription[Manage Subscriptions]

@@ -1,0 +1,16 @@
+flowchart TD
+    A[Customer visits website] --> B[Select active campaign]
+    B --> C[Browse products]
+    C --> D[Add products to cart]
+    D --> E[Checkout]
+    E --> F{Deposit at least 70 percent?}
+    F -- No --> G[Show minimum deposit error]
+    G --> E
+    F -- Yes --> H[Accept preorder rules]
+    H --> I[Order created]
+    I --> J[Admin verifies payment]
+    J --> K[Campaign closes]
+    K --> L[Admin adds shipping fee]
+    L --> M[Customer pays balance]
+    M --> N[Shipment updated]
+    N --> O[Goods delivered]

@@ -1,0 +1,7 @@
+flowchart TD
+    U[Users on Phone/Laptop] --> C[Cloudflare/HTTPS]
+    C --> W[Web Server]
+    W --> D[Django App]
+    D --> DB[(PostgreSQL Database)]
+    D --> M[Media Storage]
+    D --> E[Email/WhatsApp API Future]

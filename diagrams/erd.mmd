@@ -1,0 +1,11 @@
+erDiagram
+    BUSINESS ||--o{ CAMPAIGN : owns
+    BUSINESS ||--o{ CUSTOMER : has
+    CAMPAIGN ||--o{ PRODUCT : contains
+    CAMPAIGN ||--o{ ORDER : receives
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--o{ ORDER_ITEM : includes
+    PRODUCT ||--o{ ORDER_ITEM : selected
+    ORDER ||--o{ PAYMENT : has
+    ORDER ||--o{ SHIPMENT_EVENT : tracks
+    CUSTOMER ||--o{ SOURCING_REQUEST : submits
