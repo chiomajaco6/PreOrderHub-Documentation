@@ -52,19 +52,40 @@ PreOrderHub-Documentation/
 
 ---
 
-## 📖 Documentation
+## 📚 Documentation
 
-This repository contains the complete software engineering documentation for the project, including:
+The following documents describe the proposed PreOrderHub system, its requirements, architecture, user interface, and development plan.
 
-- Business Analysis
-- Software Requirements Specification (SRS)
-- System Architecture
-- Database Design
-- UML Diagrams
-- Figma Wireframes
-- Deployment Architecture
-- Development Roadmap
+### Core Documentation
 
+| Document | Description |
+|---|---|
+| [Complete System Specification](docs/SPECIFICATION.md) | Business requirements, functional requirements, system rules, architecture and implementation guidance |
+| [Figma and Wireframe Specification](figma/WIREFRAME_SPEC.md) | Screen-by-screen UI/UX requirements for the customer and administrator interfaces |
+
+### UML and System Diagrams
+
+| Diagram | Description |
+|---|---|
+| [Use Case Diagram](diagrams/use_case.mmd) | Interactions between customers, administrators and the system |
+| [Activity Flow Diagram](diagrams/activity_flow.mmd) | Complete preorder workflow from campaign creation to delivery |
+| [Entity Relationship Diagram](diagrams/erd.mmd) | Main database entities and their relationships |
+| [Deployment Diagram](diagrams/deployment.mmd) | Proposed cloud deployment architecture |
+
+### Current Documentation Status
+
+| Area | Status |
+|---|---|
+| Business analysis | ✅ Completed |
+| User requirements | ✅ Completed |
+| Software requirements specification | ✅ Completed |
+| Preorder business rules | ✅ Completed |
+| Database design | ✅ Initial design completed |
+| UML diagrams | ✅ Initial diagrams completed |
+| Figma wireframe specification | ✅ Completed |
+| Interactive Figma prototype | 🚧 Pending |
+| Django implementation | ⏳ Planned |
+| Production deployment | ⏳ Planned |
 ---
 
 ## 🎯 Project Vision
